@@ -1,0 +1,16 @@
+name: Bertopic
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - ipykernel
+  - pyarrow
+  - openpyxl
+  - nbformat
+  - datamapplot
+  - tiktoken
+  - spacy=3.8.2
+  - pip
+  - pip:
+    - bertopic==0.16.3
